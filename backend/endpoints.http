@@ -1,0 +1,14 @@
+GET http://15.207.132.107:8082/cities HTTP/1.1
+
+###
+
+
+POST http://3.108.15.67:8082/reservations/new HTTP/1.1
+content-type: application/json
+
+{
+	"name" : "Vikas",
+	"date" : "2023-02-12",
+	"person" : "2",
+	"adventure": "1773524915"
+}
